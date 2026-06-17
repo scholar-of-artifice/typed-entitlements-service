@@ -1,0 +1,4 @@
+(executable
+ (public_name typed_entitlements_service)
+ (name main)
+ (libraries typed_entitlements_service))
