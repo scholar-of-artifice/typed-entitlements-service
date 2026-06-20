@@ -19,7 +19,15 @@
  (name typed_entitlements_service)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml)
+ (depends
+   ocaml
+   dune
+   base
+   core
+   async
+   ppx_jane
+   caqti
+   caqti-async)
  (tags
   ("add topics" "to describe" your project)))
 
