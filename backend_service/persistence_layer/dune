@@ -1,2 +1,7 @@
 (library
  (name persistence_layer))
+
+(env
+ (_
+  (flags
+   (:standard -w +A -warn-error +A))))
