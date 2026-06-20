@@ -1,2 +1,7 @@
 (library
  (name core_engine))
+
+(env
+ (_
+  (flags
+   (:standard -w +A -warn-error +A))))
